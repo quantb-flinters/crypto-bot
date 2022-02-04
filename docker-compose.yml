@@ -23,10 +23,10 @@ services:
     # Default command used when running `docker compose up`
     command: >
       trade
-      --logfile /freqtrade/user_data/logs/freqtrade.log
-      --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
+      --logfile /freqtrade/user_data/logs/freqtrade_dryruns.log
+      --db-url sqlite:////freqtrade/user_data/tradesv3_dryruns.sqlite
       --config /freqtrade/user_data/pairlist-volume-binance-usdt.json
       --config /freqtrade/user_data/blacklist-binance.json
       --config /freqtrade/user_data/config.json
       --config /freqtrade/user_data/config.private.json
-      --strategy NostalgiaForInfinityX
+      --strategy Combined_NFIv7_SMA_Rallipanos_20210707
