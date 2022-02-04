@@ -1,5 +1,5 @@
 {
-    "dry_run": true,
+    "dry_run": false,
     "stake_currency": "USDT",
     "fiat_display_currency": "USD",
     "cancel_open_orders_on_exit": false,

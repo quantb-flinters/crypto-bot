@@ -1,4 +1,5 @@
 .DS_Store
+.idea
 user_data/data*
 user_data/plot*
 user_data/*.sqlite
